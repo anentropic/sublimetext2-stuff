@@ -277,13 +277,24 @@
 			<key>name</key>
 			<string>Library function</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>support.function - entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#7290D9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library function (override)</string>
+			<key>scope</key>
+			<string>entity.name.function support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#9933FF20</string>
 			</dict>
 		</dict>
 		<dict>

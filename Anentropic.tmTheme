@@ -194,6 +194,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Filename</string>
+			<key>scope</key>
+			<string>entity.name.filename</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#778899</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Inherited class name</string>
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>

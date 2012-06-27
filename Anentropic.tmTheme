@@ -74,7 +74,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#44B843</string>
+				<string>#44C840</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,13 +107,24 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable.language, variable.other - variable.other.django.settings</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#318495</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable (Django settings)</string>
+			<key>scope</key>
+			<string>variable.other.django.settings</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#33FF0016</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +176,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#AAD887</string>
+				<string>#C8C887</string>
 			</dict>
 		</dict>
 		<dict>
@@ -179,6 +190,17 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#F07358</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function call</string>
+			<key>scope</key>
+			<string>meta.function-call</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -266,15 +288,39 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Library function (Django)</string>
+			<key>scope</key>
+			<string>support.function.django</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#48B868</string>
+				<key>background</key>
+				<string>#33FF0016</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Library object</string>
 			<key>scope</key>
 			<string>support.class, support.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#6D79DE</string>
+				<string>#7050DE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library object (Django)</string>
+			<key>scope</key>
+			<string>support.class.django, support.type.django</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#33FF0016</string>
+				<key>foreground</key>
+				<string>#388848</string>
 			</dict>
 		</dict>
 		<dict>
@@ -284,10 +330,8 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#00AF0E</string>
+				<string>#7290D9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -297,21 +341,8 @@
 			<string>support.variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#2F5FE0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Operator</string>
-			<key>scope</key>
-			<string>keyword.operator.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#687687</string>
+				<string>#C8C887</string>
 			</dict>
 		</dict>
 		<dict>

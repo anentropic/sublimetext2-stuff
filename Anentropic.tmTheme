@@ -489,6 +489,30 @@
 				<string>italic</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS selector id</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.other.attribute-name.id</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS selector tag</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#BDAE9D</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>6B90703E-4E4B-43C8-9D32-921BEDF6D725</string>

@@ -382,24 +382,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>YAML Tag</string>
-			<key>scope</key>
-			<string>entity.name.tag.yaml</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#A3C8FD30</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Embedded source</string>
 			<key>scope</key>
 			<string>text source</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F5AA7718</string>
+				<string>#F5AA7710</string>
 			</dict>
 		</dict>
 		<dict>
@@ -449,14 +438,14 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#0080D0</string>
+				<string>#0060C0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Markup tag</string>
 			<key>scope</key>
-			<string>meta.tag, declaration.tag, entity.name.tag.yaml</string>
+			<string>meta.tag, declaration.tag, entity.name.tag, punctuation.definition.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

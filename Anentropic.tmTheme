@@ -107,13 +107,26 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other - variable.other.django.settings</string>
+			<string>variable.language, variable.other - variable.other.django</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#318495</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>meta.function-call.arguments.django.templatetag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#90C0A0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -469,7 +482,7 @@
 			<key>name</key>
 			<string>Markup tag attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name</string>
+			<string>entity.other.attribute-name, keyword.control.filter.django</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

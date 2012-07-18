@@ -95,31 +95,31 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>"</string>
+					<string>:"|"</string>
 					<key>end</key>
 					<string>"</string>
 					<key>name</key>
-					<string>string.quoted.double</string>
+					<string>storage.type.attr.django</string>
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>'</string>
+					<string>:\'|\'</string>
 					<key>end</key>
-					<string>'</string>
+					<string>\'</string>
 					<key>name</key>
-					<string>string.quoted.single</string>
+					<string>storage.type.attr.django</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\|</string>
 					<key>name</key>
-					<string>keyword.other.django.filter-pipe</string>
+					<string>string.unquoted.filter-pipe.django</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>[a-zA-Z_.]+</string>
 					<key>name</key>
-					<string>meta.function-call.arguments.django.templatetag</string>
+					<string>string.unquoted.tag-string.django</string>
 				</dict>
 			</array>
 		</dict>
@@ -129,7 +129,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(autoescape|endautoescape|block|endblock|blocktrans|endblocktrans|trans|plural|debug|extends|filter|firstof|for|empty|endfor|if|else|endif|include|ifchanged|endifchanged|ifequal|endifequal|ifnotequal|endifnotequal|load|from|low|regroup|ssi|spaceless|endspaceless|templatetag|widthratio|with|endwith|csrf_token|cycle|url|lorem|thumbnail|endthumbnail|get_static_prefix)\b</string>
+					<string>\b(autoescape|endautoescape|block|endblock|blocktrans|endblocktrans|trans|plural|debug|extends|filter|firstof|for|empty|endfor|if|elif|else|endif|include|ifchanged|endifchanged|ifequal|endifequal|ifnotequal|endifnotequal|load|from|low|regroup|ssi|spaceless|endspaceless|templatetag|widthratio|with|endwith|csrf_token|cycle|url|lorem|thumbnail|endthumbnail|get_static_prefix)\b</string>
 					<key>name</key>
 					<string>keyword.control.tag-name.django</string>
 				</dict>

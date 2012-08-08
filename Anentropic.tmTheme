@@ -513,49 +513,6 @@
 				<string>#BDAE9D</string>
 			</dict>
 		</dict>
-  <dict>
-        <key>name</key>
-        <string>diff: deleted</string>
-        <key>scope</key>
-        <string>markup.deleted</string>
-        <key>settings</key>
-        <dict>
-            <key>background</key>
-            <string>#EAE3CA</string>
-            <key>fontStyle</key>
-            <string></string>
-            <key>foreground</key>
-            <string>#D3201F</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>diff: changed</string>
-        <key>scope</key>
-        <string>markup.changed</string>
-        <key>settings</key>
-        <dict>
-            <key>background</key>
-            <string>#EAE3CA</string>
-            <key>fontStyle</key>
-            <string></string>
-            <key>foreground</key>
-            <string>#BF3904</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>diff: inserted</string>
-        <key>scope</key>
-        <string>markup.inserted</string>
-        <key>settings</key>
-        <dict>
-            <key>background</key>
-            <string>#EAE3CA</string>
-            <key>foreground</key>
-            <string>#219186</string>
-        </dict>
-    </dict>
     <dict>
         <key>name</key>
         <string>Markdown: Linebreak</string>
@@ -684,7 +641,64 @@
                 <string>#268bd2</string>
             </dict>
         </dict>
-    </array>
+		<dict>
+			<key>name</key>
+			<string>diff.header</string>
+			<key>scope</key>
+			<string>meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77aadd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E94242</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#33a833</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff2222</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.range</string>
+			<key>scope</key>
+			<string>meta.diff.range</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#0060C0</string>
+			</dict>
+		</dict>
+	</array>
 	<key>uuid</key>
 	<string>6B90703E-4E4B-43C8-9D32-921BEDF6D725</string>
 </dict>

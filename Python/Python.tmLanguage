@@ -1155,8 +1155,8 @@
                 __import__|all|abs|any|apply|callable|chr|cmp|coerce|compile|delattr|dir|
                 divmod|eval|execfile|filter|getattr|globals|hasattr|hash|hex|id|
                 input|intern|isinstance|issubclass|iter|len|locals|map|max|min|oct|
-                ord|pow|range|raw_input|reduce|reload|repr|round|setattr|sorted|
-                sum|unichr|vars|zip
+                open|ord|pow|range|raw_input|reduce|reload|repr|round|setattr|sorted|
+                sum|super|unichr|vars|zip
 			)\b</string>
 			<key>name</key>
 			<string>support.function.builtin.python</string>
@@ -1166,8 +1166,8 @@
 			<key>match</key>
 			<string>(?x)\b(
 				basestring|bool|buffer|classmethod|complex|dict|enumerate|file|
-				float|frozenset|int|list|long|object|open|property|reversed|set|
-				slice|staticmethod|str|super|tuple|type|unicode|xrange
+				float|frozenset|int|list|long|object|property|reversed|set|
+				slice|staticmethod|str|tuple|type|unicode|xrange
 			)\b</string>
 			<key>name</key>
 			<string>support.type.python</string>

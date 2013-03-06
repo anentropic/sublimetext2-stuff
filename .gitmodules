@@ -1,0 +1,3 @@
+[submodule "Mustache"]
+	path = Mustache
+	url = git://github.com/Hugoch/sublimeText2-mustache.git

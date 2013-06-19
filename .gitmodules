@@ -1,0 +1,6 @@
+[submodule "Mustache"]
+	path = Mustache
+	url = git://github.com/Hugoch/sublimeText2-mustache.git
+[submodule "WrapCode"]
+	path = WrapCode
+	url = git://github.com/abrookins/WrapCode.git

@@ -2,8 +2,18 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"ApplySyntax",
+		"AutoPEP8",
+		"Case Conversion",
+		"DashDoc",
 		"Djaneiro",
+		"Dockerfile Syntax Highlighting",
+		"FileDiffs",
+		"Handlebars",
+		"INI",
 		"Package Control",
+		"Python Flake8 Lint",
+		"Python PEP8 Autoformat",
 		"SublimeCodeIntel",
 		"Theme - Soda"
 	]

@@ -634,7 +634,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#eee8d5</string>
+                <string>#323232</string>
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>

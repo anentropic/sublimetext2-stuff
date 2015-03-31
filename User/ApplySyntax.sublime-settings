@@ -1,0 +1,16 @@
+
+{
+    // If you want exceptions reraised so you can see them in the console, change this to true.
+    "reraise_exceptions": true,
+
+    // Put your custom syntax rules here:
+    "syntaxes": [
+        {
+            "name": "Djaneiro/Syntaxes/HTML (Django)",
+            "rules": [
+                {"file_name": ".*/templates/.+?\\.html?$"},
+                {"file_name": ".*\\\\templates\\\\.+?\\.html?$"}
+            ]
+        }
+    ]
+}
